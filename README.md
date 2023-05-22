@@ -7,7 +7,7 @@ Este es un programa desarrollado en Spring Boot que permite a los usuarios envia
 Antes de nada, asegúrate de tener instalado Java y Maven en tu sistema operativo.
 
 1. Clona este repositorio en tu computadora.
-2. Abre la carpeta del proyecto en tu editor de código.
+2. Configura el archivo `application.properties` con tus accesos locales de tu DB.
 3. Ejecuta el siguiente comando en tu terminal para compilar el proyecto:  
     ```
     mvn clean package
