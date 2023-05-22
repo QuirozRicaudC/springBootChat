@@ -10,35 +10,10 @@
    <!--  centered div in middle of the screen of 800px -->
    <div class="flex justify-center items-center text-center" style="width: 800px; margin: 0 auto;">
        <h1 style="padding: 20px;">Chat App</h1>
-       <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Remitente</th>
-            <th scope="col">Mensaje</th>
-            
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <td>Larry</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
-      
+       <a th:href="@{/messages}" class="btn btn-primary btn-dark">Ver mensajes</a>
     </div>
     <script type="text/javascript">
-        
-
     </script>    
+
 </body>
 </html>
